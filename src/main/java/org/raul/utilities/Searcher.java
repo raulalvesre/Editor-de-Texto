@@ -5,8 +5,8 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.raul.ui.UI.textArea;
-import static org.raul.ui.UI.useRegexCheckBox;
+import static org.raul.gui.GUI.textArea;
+import static org.raul.gui.GUI.useRegexCheckBox;
 
 public class Searcher {
 

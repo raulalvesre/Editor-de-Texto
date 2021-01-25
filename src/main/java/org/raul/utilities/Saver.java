@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
-import static org.raul.ui.UI.textArea;
+import static org.raul.gui.GUI.textArea;
 
 public class Saver {
 

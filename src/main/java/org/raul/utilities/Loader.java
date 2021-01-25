@@ -3,7 +3,7 @@ package org.raul.utilities;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-import static org.raul.ui.UI.textArea;
+import static org.raul.gui.GUI.textArea;
 
 public class Loader {
 

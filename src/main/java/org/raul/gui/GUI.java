@@ -1,4 +1,4 @@
-package org.raul.ui;
+package org.raul.gui;
 
 import org.raul.utilities.Loader;
 import org.raul.utilities.Saver;
@@ -11,14 +11,14 @@ import javax.swing.event.DocumentListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 
-public class UI extends JFrame {
+public class GUI extends JFrame {
 
     public static JTextArea textArea;
     public static JCheckBox useRegexCheckBox;
     private JTextField searchQuery;
     private JFileChooser fileChooser;
 
-    public UI() {
+    public GUI() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Editor de Texto");
         setLocationRelativeTo(null);
